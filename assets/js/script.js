@@ -11,12 +11,12 @@ if ($(window).width() <= 1280) {
 }
 
 // Variables
-    tag1       = $('#js-label1'),
-    tag2       = $('#js-label2'),
-    tag3       = $('#js-label3'),
-    tag4       = $('#js-label4'),
-    tag5       = $('#js-label5'),
-    tag6       = $('#js-label6');
+    tag1       = $('.全部文章'),
+    tag2       = $('.CSS技术'),
+    tag3       = $('.前端技术'),
+    tag4       = $('.软件系统'),
+    tag5       = $('.Codepen'),
+    tag6       = $('.GitHub');
 var sidebar    = $('#sidebar'),
     container  = $('#post'),
     content    = $('#pjax'),
