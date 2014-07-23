@@ -656,5 +656,5 @@ QUnit能提供的不仅仅是这些而已,对于像是timeouts, ajax和事件之
 
 
 要转载这篇文章,请保留下面META信息,谢谢!  
-[译文: http://kezhen.info/2014-07-21-Introduction-to-Unit-Testing/](http://kezhen.info/2014-07-21-Introduction-to-Unit-Testing/)  
+[译文: http://kezhen.info/Introduction-to-Unit-Testing/](http://kezhen.info/Introduction-to-Unit-Testing/)  
 [原文: http://qunitjs.com/intro/](http://qunitjs.com/intro/ "Introduction to Unit Testing | QUnit")
