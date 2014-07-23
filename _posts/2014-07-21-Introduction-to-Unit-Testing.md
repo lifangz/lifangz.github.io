@@ -361,11 +361,11 @@ QUnit入门 了解单元测试
 
 结构看起来像是这样：
 
-![4a-green](../assets/img/4a-green.png)
+![4a-green](/assets/img/4a-green.png)
 
 对于失败的测试，结果看起来会像这样：
 
-![4b-red](../assets/img/4b-red.png)
+![4b-red](/assets/img/4b-red.png)
  ---
 因为这次测试包含了一个失败的断言，QUnit没有因此停止往下继续，这样我们就能立即看到哪里除了问题。同时
 还输出了期望值和实际值，我们可用得到两者之间的差别（diff）,这对比较较大的字符串来说比较非常有用。
