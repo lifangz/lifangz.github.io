@@ -1,6 +1,6 @@
 
 /*!--------------------------------*\
-   3-Ghost Theme
+   Theme
    @author Peiwen Lu (P233)
    https://github.com/P233/3-Ghost
 \*---------------------------------*/
@@ -11,17 +11,10 @@ if ($(window).width() <= 1280) {
 }
 
 // Ghost currently doesn't allow to output posts list in a single post page, if visitors directly visit a post page sidebar will be blank. This workaround is used to grab posts list from the index page.
-var postsList = $('#slide-1');
-if (!$.trim(postsList.html())) {
-  postsList.load('/ .pl__all', function() {
-    postsListReady();
-  });
-} else {
-  postsListReady();
-}
+
 
 // Run the following scripts after posts list has been loaded.
-function postsListReady() {
+
 
 // Variables
     tag1       = $('.pl__all'),
@@ -182,4 +175,4 @@ function afterPjax() {
   // container.scroll(check);
 }afterPjax();
 
-} // end postsListReady()
+// end postsListReady()
