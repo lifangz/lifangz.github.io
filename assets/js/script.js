@@ -12,7 +12,7 @@ if ($(window).width() <= 1280) {
 
 // Ghost currently doesn't allow to output posts list in a single post page, if visitors directly visit a post page sidebar will be blank. This workaround is used to grab posts list from the index page.
 var postsList = $('#slide-1');
-if (!$.trim(postsList.html())) {
+if (!$.trim(post.html())) {
   postsList.load('/ .pl__all', function() {
     postsListReady();
   });
