@@ -10,6 +10,7 @@ if ($(window).width() <= 1280) {
   $('#sidebar').addClass('mobile')
 }
 
+
 // Variables
     tag1       = $('.pl__all'),
     tag2       = $('.css'),
@@ -17,6 +18,7 @@ if ($(window).width() <= 1280) {
     tag4       = $('.mac'),
     tag5       = $('.codepen'),
     tag6       = $('.github');
+	
 var sidebar    = $('#sidebar'),
     container  = $('#post'),
     content    = $('#pjax'),
