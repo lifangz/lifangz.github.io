@@ -1,2 +1,11 @@
-pygments: true
+auto: true
+
 markdown: rdiscount
+pygments: true
+paginate: 8
+permalink: /:title
+
+title: Solowave
+url: http://lifang.co
+feed: /atom.xml
+author_info: <a href="http://lifang.co">Lee</a>
