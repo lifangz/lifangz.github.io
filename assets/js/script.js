@@ -20,7 +20,7 @@ if ($(window).width() <= 1280) {
     tag1       = $('.pl__all'),
     tag2       = $('.css'),
     tag3       = $('.front_end'),
-    tag4       = $('.mac'),
+    tag4       = $('.uxui'),
     tag5       = $('.codepen'),
     tag6       = $('.github');
 
